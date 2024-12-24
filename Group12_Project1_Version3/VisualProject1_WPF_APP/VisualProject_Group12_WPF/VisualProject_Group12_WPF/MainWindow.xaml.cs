@@ -33,7 +33,6 @@ namespace VisualProject_Group12_WPF
         {
             string username = UsernameTextBox.Text;
             string password = PasswordBox.Password;
-
             using (SqlConnection connection = new SqlConnection(DataBaseHelper.ConnectionString))
             {
                 connection.Open();
@@ -49,10 +48,7 @@ namespace VisualProject_Group12_WPF
 
                     if (BCrypt.Net.BCrypt.Verify(password, storedHash))
                     {
-                        if (role == "Admin")
-                        {
-
-                            //CloseAllForms();
+                        if (role == "Admin") { 
                             AdminForm a = new AdminForm();
                             a.Show();
                             this.Close();

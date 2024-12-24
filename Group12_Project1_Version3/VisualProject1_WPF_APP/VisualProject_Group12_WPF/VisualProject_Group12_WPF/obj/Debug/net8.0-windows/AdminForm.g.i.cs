@@ -300,7 +300,7 @@ namespace VisualProject_Group12_WPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/VisualProject_Group12_WPF;component/adminform.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/VisualProject_Group12_WPF;V1.0.0.0;component/adminform.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AdminForm.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

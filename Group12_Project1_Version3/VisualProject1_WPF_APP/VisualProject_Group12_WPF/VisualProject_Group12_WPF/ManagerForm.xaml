@@ -20,6 +20,38 @@
                 <DataGrid Name="StockMovementsDataGrid" AutoGenerateColumns="True" Height="200"/>
 
             </TabItem>
+
+            <!-- Log Out -->
+            <TabItem Header="LogOut">
+                <Grid Margin="100" Background="#F7F9FC">
+                    <!-- Center Content -->
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="400">
+                        <!-- TextBlock Styling -->
+                        <TextBlock Text="Are you sure you want to log out? :(" 
+                       FontSize="20" 
+                       FontWeight="Bold" 
+                       Foreground="#2C3E50" 
+                       TextAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+                        <!-- Stylish Button with Rounded Corners -->
+                        <Button Width="200" Height="50" Background="#E74C3C" Foreground="White" FontWeight="Bold" FontSize="16"
+                    HorizontalAlignment="Center" VerticalAlignment="Center" Click="LogoutButton_Click"
+                    Cursor="Hand">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="25">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                            <Button.Content>
+                                Click here to log out
+                            </Button.Content>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
         </TabControl>
 
     </Grid>
