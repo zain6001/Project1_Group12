@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p9VrCAkJ9i4=",
+  "dgSpecHash": "duxVQH+soxA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\zain\\Desktop\\VisualProject_1_GRoup 12\\VisualProject_Group12_WPF\\VisualProject_Group12_WPF\\VisualProject_Group12_WPF.csproj",
+  "projectFilePath": "C:\\Users\\zain\\Documents\\GitHub\\Project1_Group12\\Group12_Project1_Version3\\VisualProject1_WPF_APP\\VisualProject_Group12_WPF\\VisualProject_Group12_WPF\\VisualProject_Group12_WPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zain\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\zain\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
