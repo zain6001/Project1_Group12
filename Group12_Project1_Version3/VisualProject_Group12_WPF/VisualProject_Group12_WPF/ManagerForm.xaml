@@ -1,0 +1,26 @@
+﻿<Window x:Class="VisualProject_Group12_WPF.ManagerForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manager Dashboard" Height="600" Width="900">
+    <Grid>
+        <TabControl Margin="0,0,0,-20" Background="Transparent" BorderBrush="#BDC3C7" BorderThickness="1" FontWeight="Bold">
+            <TabItem Header="Products">
+                <DataGrid Name="ProductsDataGrid" AutoGenerateColumns="True" Height="200"/>
+
+            </TabItem>
+            <TabItem Header="SalesPersons">
+                <DataGrid Name="SalesPersonsDataGrid" AutoGenerateColumns="True" Height="200"/>
+
+            </TabItem>
+            <TabItem Header="Orders">
+                <DataGrid Name="OrderssDataGrid" AutoGenerateColumns="True" Height="200"/>
+
+            </TabItem>
+            <TabItem Header="StockMovements">
+                <DataGrid Name="StockMovementsDataGrid" AutoGenerateColumns="True" Height="200"/>
+
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
